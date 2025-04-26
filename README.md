@@ -20,4 +20,9 @@ It involves working with data like:
 - Performance evaluations.
 - Employee engagement surveys
   
-By applying data analysis techniques, HR teams can identify trends, forecast future workforce needs, measure the impact of HR initiatives, and improve employee satisfaction and productivity. Tools like Excel, Power BI, Python, and HR-specific platforms (like Workday or SAP SuccessFactors) are commonly used in HR data analysis
+By applying this analysis techniques, HR teams can identify trends, forecast future workforce needs, measure the impact of HR initiatives, and improve employee satisfaction and productivity.
+
+### Dataset Overview
+The dataset used in the analysis consisits of 22214 rows and 13 columns and 2 created column, here is a sample of the work.
+
+![hr sample](https://github.com/user-attachments/assets/7459e341-76e1-40f9-88ee-f15cb56a65a5)
