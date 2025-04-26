@@ -59,3 +59,9 @@ select * from hr_data;
 select birthdate from hr_data where birthdate > current_date() order by birthdate desc;
 update hr_data set birthdate= date_sub(birthdate,interval 100 year) where birthdate between '2065-11-01' and '2069-12-12';
 ```
+
+2. Adding a new column for full name for easy access to employee name
+```sql
+alter table hr_data add column full_name varchar(100);
+update hr_data set full_name= concat(first_name,' ',last_name);
+```
