@@ -50,3 +50,12 @@ NOTE: Clean data if required
 13. Which department has the highest turnover rate? 
 
 ### Data Cleaning🧹
+1. Putting the Date in Birthdate column in order
+```sql
+set sql_safe_updates=0;
+update hr_data set birthdate= replace(birthdate,'-','/');
+update hr_data set birthdate= str_to_date(birthdate, '%m/%d/%Y');
+select * from hr_data;
+select birthdate from hr_data where birthdate > current_date() order by birthdate desc;
+update hr_data set birthdate= date_sub(birthdate,interval 100 year) where birthdate between '2065-11-01' and '2069-12-12';
+```
