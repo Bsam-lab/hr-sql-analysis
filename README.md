@@ -111,13 +111,13 @@ create table hr_data_clone as select * from hr_data;
 
 ### Recommendation
 🧍‍♀Employee Retention
-    - Implement stay interviews for employees at risk of leaving (e.g., low tenure + low satisfaction).
-    - Create personalized retention plans for high-performing employees in high-attrition departments.
-    - Identify exit patterns and address root causes (e.g., low satisfaction, poor work-life balance).
+ 1. Implement stay interviews for employees at risk of leaving (e.g., low tenure + low satisfaction).
+ 2. Create personalized retention plans for high-performing employees in high-attrition departments.
+ 3. Identify exit patterns and address root causes (e.g., low satisfaction, poor work-life balance).
 
   🏢 Diversity & Inclusion
-    - Monitor diversity metrics (e.g., gender, age, ethnicity) by role and department.
-    - Promote inclusive hiring practices to diversify candidate pipelines.
+  1. Monitor diversity metrics (e.g., gender, age, ethnicity) by role and department.
+  2. Promote inclusive hiring practices to diversify candidate pipelines.
    
 ### Conclusion
 The HR dataset reveals key insights into employee demographics, performance, satisfaction, and turnover. High attrition among new hires and certain departments suggests a need for stronger onboarding and retention strategies. Job satisfaction and performance are positively influenced by training and fair compensation, highlighting the value of targeted development programs. Additionally, disparities in pay and promotion rates indicate opportunities to improve equity and internal mobility. Overall, data-driven HR practices can enhance employee experience, reduce turnover, and support strategic workforce planning.
