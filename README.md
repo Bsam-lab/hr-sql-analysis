@@ -77,4 +77,18 @@ update hr_data set age= round(datediff(current_date(),birthdate)/365,0);
 ```sql
 create table hr_data_clone as select * from hr_data;
 ```
+
+### Data Exploration and Insight
+1. Basic Data Exploration🔍
+   Action
+   - Each Employee have a unique id and their department which they work in is specified coupled with their hire date and working status whether contract staff or full staff of the company.
+   - Each column is assign with the suitable data type.
+
+   Insight💡
+   - In the dataset the inconsistent and missing data is check and change to the appropiate one.
+   - Spot outliers in numeric columns.
+   - Understand distributions of age, tenure, etc.
+
+
+   
    
