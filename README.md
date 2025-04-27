@@ -107,7 +107,7 @@ create table hr_data_clone as select * from hr_data;
 
    💡Insigt
    - Higher tenure employee get acknowledgement and get higher paid.
-   - The ratio of employee who work remotely and Physically is generated to know mode of work of next hired employee.
+   - The ratio of employee who work remotely and Physically is generated to know mode of work of next hiring employee.
 
 ### Recommendation
 🧍‍♀Employee Retention
