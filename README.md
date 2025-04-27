@@ -111,11 +111,13 @@ create table hr_data_clone as select * from hr_data;
 
 ### Recommendation
 🧍‍♀Employee Retention
+  
     - Implement stay interviews for employees at risk of leaving (e.g., low tenure + low satisfaction).
     - Create personalized retention plans for high-performing employees in high-attrition departments.
     - Identify exit patterns and address root causes (e.g., low satisfaction, poor work-life balance).
 
   🏢 Diversity & Inclusion
+  
     - Monitor diversity metrics (e.g., gender, age, ethnicity) by role and department.
     - Promote inclusive hiring practices to diversify candidate pipelines.
    
