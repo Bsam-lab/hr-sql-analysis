@@ -80,15 +80,44 @@ create table hr_data_clone as select * from hr_data;
 
 ### Data Exploration and Insight
 1. Basic Data Exploration🔍
-   Action
+
+   ✅Action
    - Each Employee have a unique id and their department which they work in is specified coupled with their hire date and working status whether contract staff or full staff of the company.
    - Each column is assign with the suitable data type.
+   - Summary statistics
 
-   Insight💡
+   💡Insight
    - In the dataset the inconsistent and missing data is check and change to the appropiate one.
    - Spot outliers in numeric columns.
    - Understand distributions of age, tenure, etc.
 
+3. Demographics & Diversity
 
+   ✅Action
+   - Count of employees by gender, age, location, race.
+
+   💡Insight
+   - Gender balance in the workforce
+
+4. Performance & Satisfaction
+
+   ✅Action
+   - Correlate performance rating with tenure.
+   - Distribution of employees who work remotely and physically.
+
+   💡Insigt
+   - Higher tenure employee get acknowledgement and get higher paid.
+   - The ratio of employee who work remotely and Physically is generated to know mode of work of next hired employee.
+
+### Recommendation
+🧍‍♀Employee Retention
+    - Implement stay interviews for employees at risk of leaving (e.g., low tenure + low satisfaction).
+    - Create personalized retention plans for high-performing employees in high-attrition departments.
+    - Identify exit patterns and address root causes (e.g., low satisfaction, poor work-life balance).
+
+  🏢 Diversity & Inclusion
+    - Monitor diversity metrics (e.g., gender, age, ethnicity) by role and department.
+    - Promote inclusive hiring practices to diversify candidate pipelines.
    
-   
+### Conclusion
+The HR dataset reveals key insights into employee demographics, performance, satisfaction, and turnover. High attrition among new hires and certain departments suggests a need for stronger onboarding and retention strategies. Job satisfaction and performance are positively influenced by training and fair compensation, highlighting the value of targeted development programs. Additionally, disparities in pay and promotion rates indicate opportunities to improve equity and internal mobility. Overall, data-driven HR practices can enhance employee experience, reduce turnover, and support strategic workforce planning.
